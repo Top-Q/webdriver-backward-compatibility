@@ -1,0 +1,7 @@
+<project name="WebDriverBackwardCompatibility" default="all" basedir=".">
+	<property environment="env"/>
+	<property name="projectName" value="WebDriverBackwardCompatibility"/>
+	<property name="runnerRoot" value="${env.RUNNER_ROOT}"/>
+	<property name="dist" value="/../dist"/>
+	<import file="${runnerRoot}/dev/buildHelper.xml" />
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sut validators="">
+
+	<seleniumSystemObject>
+		<class>com.jsystem.selenium.WebDriverBackwardCompatibilitySystemObject</class>	
+		<webBrowser>*googlechrome</webBrowser>
+		<domain>https://www.youtube.com</domain>
+		<seleniumTimeOut>90000</seleniumTimeOut>	
+		<screenShot>true</screenShot>
+		<ignoreCertificateErrors>true</ignoreCertificateErrors>
+		<windowMaximize>true</windowMaximize>
+		
+	</seleniumSystemObject>
+
+
+</sut>
